@@ -327,6 +327,17 @@ a:focus {
   z-index: 1030;
 }
 
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn-container button {
+  margin: 10px;
+}
+
 .main-header .navbar {
   -webkit-transition: margin-left 0.3s ease-in-out;
   -o-transition: margin-left 0.3s ease-in-out;
@@ -4064,8 +4075,8 @@ table.text-center th {
  * Component: modal
  * ----------------
  */
-.modal {
-  background: rgba(0, 0, 0, 0.3);
+ .modal {
+  background: #e3aa0036;
 }
 
 .modal-content {

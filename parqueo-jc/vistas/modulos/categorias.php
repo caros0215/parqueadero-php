@@ -57,11 +57,11 @@ if($_SESSION["perfil"] == "Vendedor"){
          <tr>
            
            <th style="width:10px">#</th>
-           <th>Vehiculo</th>
-           <th>Precio por hora o fraccion</th>
-           <th>Precio por dia</th>
-           <th>Precio por lavado</th>
-           <th>Acciones</th>
+           <th style="width:10px;font-weight: 500;">Vehiculo</th>
+           <th style="width:10px;font-weight: 500;">Precio por hora o fraccion</th>
+           <th style="width:10px;font-weight: 500;">Precio por dia</th>
+           <th style="width:10px;font-weight: 500;">Precio por lavado</th>
+           <th style="width:10px;font-weight: 500;">Acciones</th>
 
          </tr> 
 

@@ -39,7 +39,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
       <div class="box-header with-border" style="background-color: black;border-bottom: 3px solid #e3aa00;">
   
-        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario" style="background-color:black;color:#e3aa00;font-weight: bold;">
+        <button class="btn btn-primary" data-toggle="modal" data-target="#modalAgregarUsuario" style="background-color:black;color:#e3aa00;font-weight: 500;">
           
           Agregar usuario
 
@@ -47,7 +47,7 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
 
       </div>
 
-      <div class="box-body" style="background-color:black;">
+      <div class="box-body" style="background-color:black;font-weight: 500;">
         
        <table class="table table-bordered table-striped dt-responsive tablas" width="100%">
          
@@ -55,14 +55,14 @@ if($_SESSION["perfil"] == "Especial" || $_SESSION["perfil"] == "Vendedor"){
          
          <tr>
            
-           <th style="width:10px">#</th>
-           <th>Nombre</th>
-           <th>Usuario</th>
-           <th>Foto</th>
-           <th>Perfil</th>
-           <th>Estado</th>
-           <th>Último login</th>
-           <th>Acciones</th>
+           <th style="width:10px;font-weight: 500;">#</th>
+           <th style="width:10px;font-weight: 500;">Nombre</th>
+           <th style="width:10px;font-weight: 500;">Usuario</th>
+           <th style="width:10px;font-weight: 500;">Foto</th>
+           <th style="width:10px;font-weight: 500;">Perfil</th>
+           <th style="width:10px;font-weight: 500;">Estado</th>
+           <th style="width:10px;font-weight: 500;">Último login</th>
+           <th style="width:10px;font-weight: 500;">Acciones</th>
 
          </tr> 
 
